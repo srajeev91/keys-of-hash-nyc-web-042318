@@ -3,7 +3,7 @@ class Hash
     array = []
     self.each do |animal_name, place|
       if arguments.include?(place)
-        array << animal_name
+        array.push(animal_name)
       end
     end
     array
